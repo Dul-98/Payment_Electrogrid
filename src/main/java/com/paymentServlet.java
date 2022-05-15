@@ -65,7 +65,7 @@ public class paymentServlet extends HttpServlet {
 		String output = modeObj.insertService(request.getParameter("accountTpe"), 
 				   request.getParameter("amount"), 
 				   request.getParameter("accountNo")); 
-response.getWriter().write(output);
+   response.getWriter().write(output);
 
 		
 		//doGet(request, response);
