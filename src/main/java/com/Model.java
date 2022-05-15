@@ -13,6 +13,8 @@ public class Model {
 	 Connection con = null; 
 	 try
 	 { 
+		 
+		 
 	 Class.forName("com.mysql.cj.jdbc.Driver"); 
 	 
 	 
