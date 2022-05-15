@@ -37,6 +37,8 @@ Account Type
  Model modeObj = new Model();
  out.print(modeObj.readService()); 
  %>
+ 
+ 
 </div>
 </div> </div> </div> 
 </body>
